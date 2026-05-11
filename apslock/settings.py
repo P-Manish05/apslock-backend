@@ -22,6 +22,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'contacts',
+    'newsletter',
+    'bookings',
 ]
 
 MIDDLEWARE = [
@@ -148,6 +150,7 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon': '100/day',
         'contact': '5/hour',
+        'newsletter': '3/hour',
     }
 }
 
