@@ -1,1 +1,1 @@
-web: gunicorn apslock.wsgi --log-file -
+web: gunicorn apslock.wsgi --workers 3 --log-file -
