@@ -1,0 +1,1 @@
+web: gunicorn apslock.wsgi --log-file -
