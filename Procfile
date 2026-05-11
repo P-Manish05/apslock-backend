@@ -1,1 +1,1 @@
-web: gunicorn apslock.wsgi --workers 3 --log-file -
+web: gunicorn apslock.wsgi --workers 3 --bind 0.0.0.0:$PORT --log-file -
