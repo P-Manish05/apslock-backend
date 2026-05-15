@@ -56,7 +56,7 @@ We're glad to have you.
 
 Talk soon,
 Team APSLOCK
-https://apslock-website.vercel.app
+https://demo2-alpha-ivory.vercel.app
                     """,
                     from_email=settings.DEFAULT_FROM_EMAIL,
                     recipient_list=[email],
