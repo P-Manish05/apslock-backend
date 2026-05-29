@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'contacts',
     'newsletter',
     'bookings',
+    'analytics',
 ]
 
 MIDDLEWARE = [
